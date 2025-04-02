@@ -1,4 +1,4 @@
-package kr.co.ureca.s3aop;
+package kr.co.ureca.s3aop.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

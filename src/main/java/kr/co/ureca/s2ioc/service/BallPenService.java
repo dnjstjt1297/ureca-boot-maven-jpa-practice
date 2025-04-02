@@ -24,9 +24,3 @@ public class BallPenService implements PenService {
 	} // write
 
 } // class
-
-
-
-
-
-

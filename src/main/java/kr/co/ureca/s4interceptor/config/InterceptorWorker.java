@@ -1,4 +1,4 @@
-package kr.co.ureca.s4interceptor;
+package kr.co.ureca.s4interceptor.config;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -12,9 +12,9 @@ import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-public class InterceptorTest implements HandlerInterceptor {
+public class InterceptorWorker implements HandlerInterceptor {
 
-	public static final Logger logger = LoggerFactory.getLogger(InterceptorTest.class);
+	public static final Logger logger = LoggerFactory.getLogger(InterceptorWorker.class);
 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)

@@ -14,7 +14,7 @@ public class DITestService {
 
 	public Map<String, String> diTestPrint() {
 
-		logger.info(">>>diTestPrint<<<");
+		logger.info(">>> diTestPrint <<<");
 
 		HashMap<String, String> map = new HashMap<>();
 		map.put("message", "This is DITest...");
@@ -24,9 +24,3 @@ public class DITestService {
 	} // diTestPrint
 
 } // class
-
-
-
-
-
-

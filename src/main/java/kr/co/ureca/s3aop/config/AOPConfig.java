@@ -1,4 +1,4 @@
-package kr.co.ureca.s3aop;
+package kr.co.ureca.s3aop.config;
 
 import java.util.Date;
 
@@ -14,9 +14,9 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-public class AOPTest {
+public class AOPConfig {
 
-	public static final Logger logger = LoggerFactory.getLogger(AOPTest.class);
+	public static final Logger logger = LoggerFactory.getLogger(AOPConfig.class);
 
 	@Before( "execution(* kr.co.ureca.*.controller.*.*(..) )" )
 	public void aopBefore(JoinPoint joinPoint) {
@@ -55,15 +55,3 @@ public class AOPTest {
 	} // aopAround
 
 } // class
-
-
-
-
-
-
-
-
-
-
-
-
