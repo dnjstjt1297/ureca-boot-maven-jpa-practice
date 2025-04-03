@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest // Test 객체 지정.
+@SpringBootTest // 스프링 부트 환경에서의 테스트
 class TestLifeCycle {
 
 	@BeforeAll
@@ -30,7 +30,7 @@ class TestLifeCycle {
 		System.out.println("@AfterEach : 각 메소드 테스트 실행 후에 수행하는 작업." );
 	}
 
-	@Test // test 대상 method 지정.
+	@Test
 	void test() {
 		// fail("Not yet implemented"); // 비정상 종료는 빨간색 return.
 		System.out.println("default test method"); // 정상 종료는 초록색 return.
